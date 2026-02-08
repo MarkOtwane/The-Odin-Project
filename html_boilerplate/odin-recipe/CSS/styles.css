@@ -1,0 +1,62 @@
+/* *{
+    color:green;
+}
+
+/* *- selector
+color- propperty
+green- value */
+/* div{
+    font-size: 20px;
+}  */
+
+/* .class selector */
+/* .one {
+	color: green;
+}
+.two {
+	color: green;
+}
+.three {
+	color: yellow;
+}
+.four {
+	color: green;
+}
+.five {
+	color: blue;
+} */
+
+/* #id selector */
+#three {
+	font-weight: bolder;
+	background-color: pink;
+	font-family: "Courier New", Courier, monospace;
+}
+
+/* grouping selectors */
+.four,
+.two,
+.five {
+	color: purple;
+}
+
+.subset.one {
+	color: rgb(1, 120, 150);
+}
+
+/* PROPERTIEST OF CSS */
+/* color */
+/* hexadecimal value */
+/* color: #1100ff; */
+
+/* rgb example: */
+/* color: rgb(100, 0, 127); */
+/* hsl example: */
+/* color: hsl(15, 82%, 56%) */
+
+/* Typography basics and text-align */
+/* font-family */
+/* font-size */
+/* font-weight */
+/* text-align */
+/* Image height and width */
