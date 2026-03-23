@@ -1,3 +1,12 @@
 git --version
 git init
 git add .
+git commit -m "Initial commit"
+git log
+git log --oneline
+git log --graph --oneline
+git diff
+git diff --staged
+git branch
+git branch <name of the branch>
+git checkout master
