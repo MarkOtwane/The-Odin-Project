@@ -9,17 +9,97 @@
 	</head>
 	<body>
 		<h1>Avacado Vendor</h1>
-		<p>Welcome to the Avacado Vendor website! We sell the freshest avacados in town.</p>
+		<p><strong>Welcome</strong> to the <em>Avacado Vendor</em>website! We sell the freshest avacados in town.</p>
+		<img src="" alt="Avacado image" />
 		<h2>Our Products</h2>
 		<ul>
 			<li>Hass Avacado - $1.50 each</li>
 			<li>Fuerte Avacado - $1.20 each</li>
 			<li>Bacon Avacado - $1.00 each</li>
 		</ul>
-		<h2>Contact Us</h2>
-		<p>Email: microtech@gmail.com</p>
+		<ol>
+			<li>Choose your avacado</li>
+			<li>Place your order</li>
+			<li>Enjoy your delicious avacado!</li>
+		</ol>
+		<table>
+			<thead>
+				<tr>
+					<th>Product</th>
+					<th>Price</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Hass Avacado</td>
+					<td>$1.50</td>
+				</tr>
+				<tr>
+					<td>Fuerte Avacado</td>
+					<td>$1.20</td>
+				</tr>
+				<tr>
+					<td>Bacon Avacado</td>
+					<td>$1.00</td>
+				</tr>
+			</tbody>
+		</table>
+		<!-- Forms -->
+		<h2>Order Form</h2>
+		<form action="/submit" method="post">
+			<label for="name">Full Name: </label>
+			<input type="text" id="name" name="name" placeholder="Enter your full name" required />
+			<br />
+			<label for="email">Email: </label>
+			<input
+				type="email"
+				id="email"
+				name="email"
+				placeholder="Enter your
+		 email address"
+				required
+			/>
+			<br />
+			<label for="password">Password: </label>
+			<input type="password" id="password" name="password" placeholder="Enter a password" required />
+
+			<br />
+			<input type="number" min="1" max="100" />
+			<select name="county" id="">
+				<option value="nairobi">Nairobi</option>
+				<option value="mombasa">Mombasa</option>
+				<option value="kisumu">Kisumu</option>
+				<option value="nakuru">Nakuru</option>
+				<option value="eldoret">Eldoret</option>
+			</select>
+			<textarea name="message" id=""></textarea>
+			<!-- checkbox -->
+			<label for="terms">
+				<input type="checkbox" id="terms" name="terms" required />
+				I agree to the terms and conditions
+			</label>
+			<br />
+			<!-- radio buttons -->
+			<label for="delivery">
+				<input type="radio" id="delivery" name="delivery" value="delivery" required />
+				Delivery
+			</label>
+			<label for="pickup">
+				<input type="radio" id="pickup" name="delivery" value="pickup" required />
+				Pickup
+			</label>
+			<br />
+			<!-- file upload -->
+			<label for="file">Upload a file: </label>
+			<input type="file" id="file" name="file" />
+			<br />
+			
+			<button type="submit">Submit Order</button>
+		</form>
+
+		<h2><mark>Contact us</mark></h2>
+		<p><a href="mailtoOmicrotech@gmail.com">microtech@gmail.com</a></p>
 		<p>+254114735711</p>
-        
 	</body>
 	<footer>&copy; 2026</footer>
 </html>
