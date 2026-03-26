@@ -1,1 +1,230 @@
 /* Introduction to css  */
+/* css stands for cascading style sheets */
+/* css is used to style the html elements */
+/* css can be added to html in three ways */
+/* 1. inline css */
+/* 2. internal css */
+/* 3. external css */
+/* 1. inline css */
+/* inline css is added to the html element using the style attribute */
+/* example */
+/* <h1 style="color: red; font-weight: bold">Hello World</h1> */
+/* 2. internal css */
+/* internal css is added to the head section of the html document using the style tag */
+/* example */
+/* <head>
+<style>
+    h1 {
+        color: red;git add
+        font-weight: bold;
+    }
+</style>
+</head> */
+/* 3. external css */
+/* external css is added to a separate css file and linked to the html document using the link
+tag */
+/* example */
+/* in the html document */
+/* <head>
+<link rel="stylesheet" href="styles.css">
+</head> */
+/* in the styles.css file */
+/* h1 {
+    color: red;
+    font-weight: bold;
+} */
+/* css syntax */
+/* selector {
+    property: value;
+} */
+/* example */
+/* h1 {
+    color: red;
+    font-weight: bold;
+} */
+/* css selectors */
+/* css selectors are used to select the html elements to style */
+/* example */
+/* element selector */
+/* h1 {
+    color: red;
+    font-weight: bold;
+} */
+/* class selector */
+/* .class-name {
+    property: value;
+} */
+/* example */
+/* .heading {
+    color: red;
+    font-weight: bold;
+} */
+/* id selector */
+/* #id-name {
+    property: value;
+} */
+/* example */
+/* #heading {
+    color: red;
+    font-weight: bold;
+} */
+/* universal selector */
+/* * {
+    property: value;
+} */
+/* example */
+/* * {
+    color: red;
+    font-weight: bold;
+    background-color: yellow;
+    font:sans serif;
+} */
+/* grouping selector */
+/* selector1, selector2 {
+    property: value;
+} */
+/* example */
+/* h1, h2, h3, p, div {
+    color: red;
+    font-weight: bold;
+} */
+/* css properties */
+/* color */
+/* font-weight */
+/* background-color */
+/* font-family */
+/* font-size */
+/* text-align */
+/* text-decoration */
+/* margin */
+/* padding */
+/* border */
+/* width */
+/* height */
+/* display */
+/* position */
+/* float */
+/* clear */
+/* z-index */
+/* css values */
+/* color values */
+/* red */
+/* green */
+/* blue */
+/* yellow */
+/* black */
+/* white */
+/* hex color values */
+/* #ff0000 */
+/* #00ff00 */
+/* #0000ff */
+/* rgb color values */
+
+/* rgb(255, 0, 0) */
+/* rgb(0, 255, 0) */
+/* rgb(0, 0, 255) */
+/* font-weight values */
+/* normal */
+/* bold */
+/* background-color values */
+/* red */
+/* green */
+/* blue */
+/* yellow */
+/* black */
+/* white */
+/* font-family values */
+/* sans-serif */
+/* serif */
+/* monospace */
+/* font-size values */
+/* 12px */
+/* 16px */
+/* 20px */
+/* text-align values */
+/* left */
+/* center */
+/* right */
+/* text-decoration values */
+/* none */
+/* underline */
+/* overline */
+/* line-through */
+/* margin values */
+/* 0px */
+/* 10px */
+/* 20px */
+/* padding values */
+/* 0px */
+/* 10px */
+/* 20px */
+/* border values */
+/* 1px solid black */
+/* width values */
+/* 100px */
+/* height values */
+/* 100px */
+/* display values */    
+/* block */
+/* inline */
+/* inline-block */
+/* position values */
+/* static */
+/* relative */
+/* absolute */
+/* fixed */
+/* float values */
+/* left */
+/* right */
+/* clear values */
+/* left */
+/* right */
+/* z-index values */
+/* 1 */
+/* 2 */
+/* 3 */
+/* css box model */
+/* the css box model is a box that wraps around every html element */
+/* it consists of four parts */
+/* 1. content */
+/* 2. padding */
+/* 3. border */
+/* 4. margin */
+/* content */
+/* the content is the actual content of the html element */
+/* padding */
+/* the padding is the space between the content and the border */
+/* border */
+/* the border is the line that wraps around the padding and content */
+/* margin */
+/* the margin is the space between the border and the adjacent elements */
+/* css specificity */
+/* css specificity is the hierarchy of the css selectors */
+/* inline css has the highest specificity */ 
+/* id selector has the second highest specificity */
+/* class selector has the third highest specificity */
+/* element selector has the lowest specificity */
+/* example */
+/* <h1 style="color: red; font-weight: bold">Hello World</h
+1> */   
+/* in the above example, the inline css will override the internal and external css */
+/* <head>
+<style>
+
+    h1 {
+        color: blue;
+        font-weight: normal;
+    }   
+
+</style>
+</head> */
+/* in the above example, the internal css will override the external css */
+/* <head>
+<link rel="stylesheet" href="styles.css">
+</head> */
+/* in the above example, the external css will be overridden by the internal css */
+/* css comments */
+/* css comments are used to add comments to the css code */
+/* short cut ctrl +foward slash (/) to add comments in css */
+
+
