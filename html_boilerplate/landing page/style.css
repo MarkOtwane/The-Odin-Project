@@ -1,0 +1,89 @@
+* {
+	font-family: Roboto;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+	padding: 50px;
+	.nav2 ul {
+		display: flex;
+		gap: 80px;
+		li {
+			list-style: none;
+		}
+		a {
+			text-decoration: none;
+			color: white;
+		}
+	}
+}
+.hero1 {
+	background-color: #1f2937;
+}
+.hero {
+	display: flex;
+	padding: 50px;
+	justify-content: space-between;
+	color: white;
+	button {
+		background-color: blue;
+		color: white;
+		border: none;
+		padding: 10px 20px;
+		cursor: pointer;
+		border-radius: 8px;
+	}
+	.right {
+		background-color: grey;
+		display: flex;
+		justify-content: center;
+		width: 600px;
+		align-items: center;
+	}
+}
+.about {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px;
+	align-items: center;
+	div {
+		border: 1px solid blue;
+		padding: 5px;
+		width: 200px;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border-radius: 8px;
+	}
+}
+.qoute {
+	background-color: #5b5b5c;
+	color: rgb(175, 174, 174);
+	padding: 50px;
+	text-align: center;
+}
+.action-call {
+	background-color: #1c2530;
+	color: white;
+	padding: 50px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	button {
+		background-color: blue;
+		color: white;
+		border: none;
+		padding: 5px 10px;
+		cursor: pointer;
+		border-radius: 8px;
+	}
+}
+footer {
+	background-color: #5b5b5c;
+	color: rgb(175, 174, 174);
+	padding: 50px;
+	text-align: center;
+}
