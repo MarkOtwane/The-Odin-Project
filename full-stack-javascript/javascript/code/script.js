@@ -20,12 +20,21 @@ console.log(single);
 console.log(double);
 console.log(backtick);
 // template literal
-console.log(`hello, ${name}`)
- 
-// String concatination +
-const greetings = "good morning"
-const name2 = "Mark";
-console.log(greetings + "," + name2)
+console.log(`hello, ${name}`);
 
-// template literal 
-console.log(`${greetings}, ${name2}`)
+// String concatination +
+const greetings = "good morning";
+const name2 = "Mark";
+console.log(greetings + "," + name2);
+
+// template literal
+console.log(`${greetings}, ${name2}`);
+
+const button = document.querySelector("button");
+
+function greet() {
+	const name3 = prompt("What's your name");
+	const greeting = document.querySelector("#greeting");
+	greeting.textContent = `Hello ${name3}, nice to see you!`;
+}
+button.addEventListener("click", greet);
