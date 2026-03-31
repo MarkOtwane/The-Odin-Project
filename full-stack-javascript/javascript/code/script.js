@@ -88,7 +88,10 @@ text = text.replaceAll(/Cats/g, "Dogs");
 text = text.replaceAll(/cats/g, "dogs");
 
 //converting a string to an array
-split()
-text.split(",")
-text.split(" ")
-text.split("|")
+// split()
+let cdn = text.split(",");
+text.split(" ");
+text.split("|");
+console.log(cdn);
+
+// Conditional statements 
