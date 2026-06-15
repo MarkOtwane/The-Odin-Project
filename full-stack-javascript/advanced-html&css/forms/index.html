@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Forms</title>
+	</head>
+	<body>
+		<h1>Forms</h1>
+		<!-- it accepts action- url to send data  -->
+		<!-- method tells the browser which http request method to use ti submit the form GET and POST -->
+		<form action="example.com/path" method="post"></form>
+
+		<!-- form controls {text, boxes, checkbox, dropdowns}-->
+		<!-- input element  type-tells the type of data(text, email, password)-->
+		<!-- labels tell the user what needs to be entered for attriute, which data its associated to-->
+		<form action="example.com/path" method="post">
+			<label for="first_name">First Name:</label>
+			<input type="text" id="first_name" />
+		</form>
+
+		<!-- name atrribute -->
+		<!-- We need to use labels so that users understand what the data entered into an input field will represent. Just like that, we also need to let the backend, where we send our data, know what each piece of data represents. -->
+		<label for="first_name">First Name:</label>
+		<input type="text" id="first_name" name="first_name" />
+
+		<!-- EXAMPLE  -->
+		<form action="https://httpbin.org/post" method="post">
+			<div>
+				<label for="first_name">First Name:</label>
+				<input type="text" name="first_name" id="first_name" />
+			</div>
+
+			<div>
+				<label for="last_name">Last Name:</label>
+				<input type="text" name="last_name" id="last_name" />
+			</div>
+
+			<div>
+				<label for="age">Age:</label>
+				<input type="number" name="age" id="age" />
+			</div>
+
+			<button type="submit">Submit</button>
+		</form>
+
+
+        <!-- FORM VALIDATION   REQUIRED -->
+	</body>
+</html>
