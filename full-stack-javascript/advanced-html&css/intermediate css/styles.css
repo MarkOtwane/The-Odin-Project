@@ -1,0 +1,78 @@
+* {
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+}
+
+/* POSITIONING */
+/* absolute, fixed, sticky, static, relative */
+
+/* CSS FUNCTIONS  */
+/* Learn about the calc(), min(), max(), and clamp() functions and how to use each one. */
+/* color: rgb(0, 42, 255);
+background: linear-gradient(90deg, blue, red); */
+
+:root {
+	--header: 3rem;
+	--footer: 40px;
+	--main: calc(100vh - calc(var(--header) + var(--footer)));
+}
+
+#iconHolder {
+	width: min(150px, 100%);
+	height: min(150px, 100%);
+	box-sizing: border-box;
+	border: 6px solid blue;
+}
+
+h1 {
+	font-size: clamp(1.5rem, 5vw, 3rem);
+}
+
+/* CUSTOM PROPERTY */
+
+.error-modal {
+	--color-error-text: red;
+	--modal-border: 1px solid black;
+	--modal-font-size: calc(2rem + 5vw);
+
+	color: var(--color-error-text);
+	border: var(--modal-border);
+	font-size: var(--modal-font-size);
+}
+
+.fallback {
+	--color-text: white;
+
+	background-color: var(--undeclared-property, black);
+	color: var(--undeclared-again, var(--color-text, yellow));
+}
+
+.cool-div {
+	--main-bg: red;
+}
+
+.cool-paragraph {
+	background-color: var(--main-bg);
+}
+
+.boring-paragraph {
+	background-color: var(--main-bg);
+}
+
+:root {
+	--main-color: red;
+}
+
+.cool-paragraph {
+	color: var(--main-color);
+}
+
+.exciting-paragraph {
+	background-color: var(--main-color);
+}
+
+/* MEDIA QUERIES  */
+@media (width >=1150) {
+	/* css elements */
+}
