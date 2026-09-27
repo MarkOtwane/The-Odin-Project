@@ -17,4 +17,7 @@ div{
 /* id selector  */
 #title{
     background-color: red;
+    color: white;
+    padding: 20px;
+    margin: 20px;
 }
